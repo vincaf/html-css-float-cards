@@ -26,6 +26,7 @@ h1{
     width: calc(100% / 3);
     background-color: #0f0e17;
     float:left;
+    display: inline;
 }
 
 img{
@@ -34,4 +35,17 @@ img{
 
 .box h3{
     color: white;
+}
+
+.box .info{
+    padding: 10px;
+}
+
+.info div{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #3ca6df;
 }
