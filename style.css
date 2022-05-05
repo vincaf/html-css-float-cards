@@ -23,18 +23,25 @@ h1{
 }
 
 .box{
-    width: calc(100% / 3);
+    width: calc(97% / 3);
     background-color: #0f0e17;
-    float:left;
+    float: left;
     display: inline;
+    margin: 10px 5px;
 }
 
 img{
     width: 30%;
+    float: left;
 }
 
 .box h3{
     color: white;
+    margin: 5px auto;
+}
+
+.info{
+    float: left;
 }
 
 .box .info{
@@ -43,6 +50,7 @@ img{
 
 .info div{
     color: white;
+    margin-bottom: 5px;
 }
 
 a{
